@@ -86,7 +86,6 @@ Sử dụng **Laravel Sanctum** cho token-based authentication.
 POST   /api/login          # User login
 POST   /api/logout         # User logout
 GET    /api/user           # Get authenticated user
-POST   /api/register       # User registration (optional)
 ```
 
 ## 🗄️ Database Schema (Phase 2)

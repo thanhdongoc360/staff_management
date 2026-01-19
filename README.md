@@ -8,6 +8,8 @@ Login as Admin: admin@staffhub.com / admin123
 Login as Employee: john@staffhub.com / employee123
 → See Employee Dashboard with personal stats
 
+thanh@staffhub.com / 123456aA
+
 ## 🚀 Phase 1: Setup & Cấu trúc dự án - HOÀN THÀNH ✅
 
 ### Công nghệ sử dụng
@@ -228,7 +230,6 @@ frontend/
 
 ### Phase 3: Authentication (2-3 ngày)
 - Tạo API endpoints cho login/logout
-- Implement Register API (optional)
 - User authentication
 - Middleware phân quyền
 - Token management
@@ -292,6 +293,19 @@ npm run preview  # Preview production build
 - Email: john@staffhub.com
 - Password: employee123
 
-## 📄 License
+### 2. Chạy Backend
 
-This project is for educational purposes.
+Mở terminal tại thư mục gốc:
+```bash
+cd backend
+php artisan serve
+```
+
+Backend sẽ chạy tại: http://localhost:8000
+
+### 3. Chạy Frontend
+
+Mở terminal mới tại thư mục gốc:
+```bash
+cd frontend
+npm run dev
